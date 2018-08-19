@@ -1,0 +1,53 @@
+.page-wrapper {
+  max-width: 1200px;
+  min-width: 768px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.main-header .site-navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-header .index-logo {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #7c85e8;
+  z-index: 0;
+  box-shadow: 5px 5px 0 0 #e8e5e5;
+}
+
+.index-logo a {
+  padding: 10px;
+  padding-right: 15
+}
+
+/* html & css */
+
+
+
+/*
+.main-header .index-logo::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  right: 0;
+  z-index: 15;
+}
+
+.main-header .index-logo::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #e8e5e5;
+  left: 0;
+  z-index: 10;
+}
+*/
