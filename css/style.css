@@ -48,7 +48,8 @@ body {
 }
 
 /* logo */
-.main-header .index-logo {
+.main-header .index-logo,
+.main-header .inner-logo {
   width: 30px;
   height: 30px;
   background-color: #7c85e8;
@@ -56,8 +57,14 @@ body {
   box-shadow: 5px 5px 0 0 #e8e5e5;
 }
 
+.main-header .inner-logo:hover {
+  background-color: #7c85c8;
+  cursor: pointer;
+}
+
 /* main-navigation */
 .index-logo,
+.inner-logo,
 .main-navigation {
     display: inline-block;
     vertical-align: middle;
@@ -88,7 +95,6 @@ body {
 .main-navigation a:hover {
   background-color: #ffffff;
   color: #7c85e8;
-  border: 1px dotted #7c85e8;
 }
 
 /* main-menu */
@@ -128,3 +134,7 @@ body {
 .main-menu a:hover {
   background: linear-gradient(to right, #7c85e8 85%, #e8e5e5 15%);
 }
+
+
+/* useful services */
+
