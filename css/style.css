@@ -1,9 +1,13 @@
+html,
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
 }
 
 .page-wrapper {
+  min-height: 100%;
+  position: relative;
   max-width: 1200px;
   min-width: 768px;
   margin: 0 auto;
@@ -27,9 +31,11 @@ body {
 
 /* footer */
 .main-footer {
-  border: 1px dotted #ffffff;
+  position: absolute;
+  bottom: 0;
   width: 100%;
   min-height: 50px;
+  border: 1px dotted #ffffff;
   background-color: #7c85e8;
 }
 
