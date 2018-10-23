@@ -11,14 +11,14 @@ body {
   max-width: 1200px;
   min-width: 768px;
   margin: 0 auto;
-  background: #ffffff url("../img/index-bg.jpg");
-  background-position: center;
+  background-color: #ffffff;
 }
 
 /* header */
 .main-header {
   background-color: #ffffff;
   border: 1px dotted #7c85e8;
+  margin-bottom: 20px;
   padding: 10px;
   padding-bottom: 15px;
   font-size: 0;
@@ -26,8 +26,7 @@ body {
 
 /* main */
 .main-section {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  background-color: #ffffff;
 }
 
 /* footer */
@@ -124,11 +123,12 @@ body {
     padding: 10px;
     padding-top: 5px;
     padding-bottom: 6px;
-    border: 1px dotted #7c85e8;
+    background: linear-gradient(to left, #7c85e8 85%, #e8e5e5 15%);
+    border: 1px dotted #ffffff;
     display: inline-block;
     min-width: 300px;
     text-align: center;
-    color: #7c85e8;
+    color: #ffffff;
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
@@ -138,18 +138,19 @@ body {
     position: relative;
 }
 
-.main-menu .chapter::before {
+.main-menu a::before {
   content: '';
   position: absolute;
-  left: 12px;
+  left: 0;
   top: 2px;
   width: 30px;
   height: 30px;
-  background: green;
+  background-image: url('../img/html_css_js.png');
 }
 
 .main-menu a:hover {
-  background: #7c85e8;
-  color: #ffffff;
-  border: 1px dotted #ffffff;
+  background: linear-gradient(to right, #7c85e8 85%, #e8e5e5 15%);
 }
+
+
+/* useful services */
